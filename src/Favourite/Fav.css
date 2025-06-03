@@ -1,0 +1,140 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  width: 280px;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.smart-bazaar-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #0050ff;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.product-title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  min-height: 40px;
+  text-align: center;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 6px;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.current-price {
+  font-weight: 700;
+  color: #000;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.discount {
+  color: #1ca30f;
+  font-weight: 600;
+  background-color: #d9f7d6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.quantity {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Button group for Add & Remove buttons side by side */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.add-button,
+.delete-btn {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+/* Add Button */
+.add-button {
+  background-color: #f68b1e;
+  color: white;
+   padding: 5.5px 13px;
+   position: relative;
+   top: -8.5px;
+}
+
+.add-button:hover {
+  background-color: #dd7a1a;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  position: relative;
+  top: 5px;
+  padding: 7px 10px;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}

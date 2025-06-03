@@ -1,0 +1,382 @@
+
+
+.slider-main{
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.slide-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.poster{
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.poster img{
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.blockbuster-sec{
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blockbuster-sec img{
+  height: auto;
+  width: 100%;
+}   
+
+.subTrend {
+  width: 15%;
+  height: 220px;
+}
+
+.subTrend img
+{
+  height: 220px;
+  width: 100%;
+}
+
+/* top category */
+.topCategory
+{
+  width: 100%;
+  margin-top: 50px;
+}
+.SubTopCategory{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.SubTopCategory img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.categorySec{
+  width: 15.5%;
+
+}
+.categorySec img{
+  width: 100%;
+  height: auto;
+}
+
+.cricketSec{
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.cricketSec img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* icecream sec */
+.icecreamMain
+{
+  width: 100%;
+  background-color: #DDF8FF;
+  padding: 5px 0px 30px 0px;
+  margin-top: 50px;
+}
+.icecreamSub{
+  width: 80%;
+  margin: auto;
+}
+
+.icecreamCard{
+  height: 327px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+}
+.ice-img{
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+}
+.btnAdd{
+  width: 150px;
+  padding: 5px 0px;
+  font-size: 16px;
+  border-radius: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+  color: #0C5273;
+  font-weight: 600;
+  border-color: gray;
+  background-color: white;
+}
+
+/* discount */
+.dis-main{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dis-sub{
+  width: 32%;
+  border-radius: 20px;
+}
+.dis-sub img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.brandsLove{
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+.brandsLove img{
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* brands */
+.brands-main{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.brands-sub{
+  width: 15%;
+  margin-left: 20px;
+}
+.brands-sub img{
+  width: 100%;
+  height: auto;
+}
+
+/* electronics */
+.ele-img{
+  height: 130px;
+  width: 100px;
+  margin: auto;
+  display: flex;
+}
+.EleCard{
+  height: 290px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.btnfvt{
+  border-radius: 50%;
+  background-color: white;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px ;
+  position: relative;
+  left: 130px;
+}
+
+/* home */
+.homeP-img{
+  height: 150px;
+  width: 100%;
+}
+
+/* globalstore */
+.globalSTore{
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.globalSTore img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* shopping */
+.shopping{
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.shopping img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.jioCare{
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.jioCare img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+
+
+/* ### Description Page## */
+
+/* description page */
+.product-page {
+  width: 40%;
+  margin: auto;
+  padding: 40px 0;
+  font-family: sans-serif;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 60px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-image-section {
+  flex: 1;
+  width: 300px;
+}
+
+.product-image {
+  width: 300px;
+  border-radius: 12px;
+  margin: auto;
+  height: 300px;
+}
+
+.product-details-section {
+  flex: 1;
+  width: 400px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-brand {
+  color: gray;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 10px;
+}
+
+.discount {
+  color: green;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 100px;
+}
+
+.product-description {
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+.product-options {
+  margin: 15px 0;
+}
+
+.size-option {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.selected {
+  border-color: #0077a6;
+  background-color: #e6f7ff;
+}
+
+.add-to-cart-btn, .buy-now-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  background-color: #fff;
+  color: #0077a6;
+  border: 2px solid #0077a6;
+}
+
+.buy-now-btn {
+  background-color: #0077a6;
+  color: white;
+}
+
+.delivery-info {
+  margin-top: 20px;
+  color: #28a745;
+  font-weight: 500;
+}
+
+  /* cart */
+  .item-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 2px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  position: static; 
+}

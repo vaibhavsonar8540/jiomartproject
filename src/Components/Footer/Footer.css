@@ -1,0 +1,254 @@
+
+   .navbar {
+    width: 100%;
+    background-color: #0C5273;
+    padding: 10px 0;
+  }
+  
+  .navbar-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    font-family: sans-serif;
+  }
+  
+  .ul-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-link{
+    color: #141414;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .link-sub{
+    color: #141414;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .link-sub:hover{
+    color: #0078AD;
+    font-weight: bold;
+  }
+  
+  .new-badge {
+    background-color: #28A745;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-weight: 600;
+  }
+  
+  
+  .navbar-submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    list-style: none;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    min-width: 250px;
+    z-index: 1000;
+  }
+  
+  .navbar-item:hover .navbar-submenu {
+    display: block;
+  }
+  
+  .submenu-item {
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  .submenu-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .navbar-subsubmenu1 {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: white;
+    color: black;
+    list-style: none;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    min-width: 220px;
+  }
+
+  .navbar-subsubmenu2 {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: white;
+    color: black;
+    list-style: none;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    min-width: 220px;
+  }
+  
+  .submenu-item:hover .navbar-subsubmenu1 {
+    display: block;
+  }
+  
+  .submenu-item:hover .navbar-subsubmenu2 {
+    display: block;
+  }
+  .navbar-subsubmenu1 li {
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  .navbar-subsubmenu1 li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .navbar-subsubmenu2 li {
+    padding: 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  .navbar-subsubmenu2 li:hover {
+    background-color: #f0f0f0;
+  }
+
+
+  .footer:hover {
+    background-color: lightgray;
+  }
+
+
+
+  
+  /* navbarup */
+ .navbar-up-container {
+  background-color: #0078AD;
+  height: 90px;
+}
+
+.navbar-up-inner {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-location {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #0C5273;
+  height: 40px;
+  width: 500px;
+  padding: 0 30px;
+  border-radius: 50px;
+}
+
+.search-icon,
+.list-icon {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  color: white;
+  width: 100%;
+  background-color: #0C5273;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.list-icon {
+  margin-left: 30px;
+}
+
+.signin-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

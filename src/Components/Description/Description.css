@@ -1,0 +1,142 @@
+.description-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  gap: 30px;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  text-align: center;
+}
+
+.product-image {
+  width: 250px;
+  margin: auto;
+  display: flex;
+  height: 500px;
+  border-radius: 12px;
+}
+
+.image-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.image-controls button {
+  padding: 6px 10px;
+  font-size: 18px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.right-section {
+  flex: 2;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rating {
+  margin: 10px 0;
+  color: #888;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 10px;
+}
+
+.discount {
+  color: green;
+  margin-left: 10px;
+}
+
+.color-section, .size-section, .offers, .delivery-info,
+.seller, .description-section, .product-info, .return-policy {
+  margin: 20px 0;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
+
+.color-circle.blue { background-color: blue; }
+.color-circle.pink { background-color: pink; }
+.color-circle.yellow { background-color: yellow; }
+
+.size-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.size-box {
+  padding: 6px 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.add-to-cart-btn, .buy-now-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.add-to-cart-btn {
+  background-color: white;
+  border: 2px solid #0077a6;
+  color: #0077a6;
+}
+
+.buy-now-btn {
+  background-color: #0077a6;
+  color: white;
+}
+
+.color-circle.selected {
+  border: 2px solid #0077a6;
+  box-shadow: 0 0 4px #0077a6;
+}
+
+.size-box.selected {
+  background-color: #0077a6;
+  color: white;
+  font-weight: bold;
+  border-color: #0077a6;
+}
+
